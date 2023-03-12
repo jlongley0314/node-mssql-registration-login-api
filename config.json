@@ -1,7 +1,7 @@
 ﻿{
-    "dbName": "node-mssql-registration-login-api",
+    "dbName": "ContentProduceraiDB",
     "dbConfig": {
-        "server": "localhost",
+        "server": "contentproducerserver.database.windows.net",
         "options": {
             "port": 1433,
             "trustServerCertificate": true
@@ -9,10 +9,10 @@
         "authentication": {
             "type": "default",
             "options": {
-                "userName": "sa",
-                "password": ""
+                "userName": "raccinf_adm",
+                "password": "RA_houO!a!i8EFR"
             }
         }
     },
-    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+    "secret": "qBX5N!ZRTmAJBvA2334mjkbwH@$!-b3c7de3e8825"
 }
